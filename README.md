@@ -27,9 +27,14 @@ Também foi separado em dois `package.json` para que o front e back sejam
 totalmente independentes. Para rodar o sistema execute:
 
 ```
-$ git clone https://github.com/jvbraganca/infosistemas.git && cd infosistemas
-$ cd web && npm install
-$ cd ../api && npm install
+$ git clone https://github.com/jvbraganca/infosistemas.git
+$ cd infosistemas
+# Instala dependencias do front-end
+$ cd web
+$ npm install
+# Instala dependencias do back-end
+$ cd ../api
+$ npm install
 ```
 
 Assim, estará instalada todas as depêndecias do sistema.
@@ -50,6 +55,7 @@ A API estará funcionando em `http://localhost:3000/api/v1/`.
 
 ```
 # No segundo terminal será rodado o front-end
+$ cd ../web
 $ ng serve
 ```
 
