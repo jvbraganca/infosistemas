@@ -5,60 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58652c9-4eea-4544-ad7a-798681cb865d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Processo_Seletivo_Infosistemas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/controller/veiculoController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/database/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/models/Veiculo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/test/veiculoTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/home/veiculo.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/veiculos.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/veiculos.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/assets/svg/undraw_Vehicle_sale_a645.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/assets/svg/undraw_order_a_car_3tww.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Processo_Seletivo_Infosistemas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Processo_Seletivo_Infosistemas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/controller/veiculoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/controller/veiculoController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/database/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/modal/modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/modal/modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/veiculos.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/veiculos.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603809279981</updated>
       <workItem from="1603809281044" duration="5186000" />
-      <workItem from="1603814486075" duration="42290000" />
+      <workItem from="1603814486075" duration="48141000" />
     </task>
     <servers />
   </component>

@@ -34,6 +34,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
   state: string = "hide";
   modalInfo: Object = {};
 
+  /**
+   *
+   * @param veiculosService
+   * @param dialog
+   */
   constructor(private veiculosService: VeiculosService, public dialog: MatDialog) {
   }
 
@@ -45,16 +50,27 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.state = "show";
   }
 
+  /**
+   * Chama a função de retornar todos os veículos a partido do serviço
+   * e popula this.vehicles com os dados recebido
+   */
   getAllVehicles() {
     this.veiculosService.getAllVehicles().subscribe(data => {
       this.vehicles = data;
     }, error => console.log(error));
   }
 
+  /**
+   * Abre o modal para cadastro de veículos
+   */
   registerVehicle() {
     this.openModal(true);
   }
 
+  /**
+   * Abre o modal para edição do cadastro de veículos
+   * @param id
+   */
   edit(id: string) {
     this.veiculosService.getById(id).subscribe(data => {
       this.modalInfo = data;
@@ -62,6 +78,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
     }, error => console.log(error));
   }
 
+  /**
+   * Chama o modal para deletar um veículo do DB.
+   * @param id
+   */
   delete(id: string) {
     this.veiculosService.getById(id).subscribe(data => {
       this.modalInfo = data;
@@ -75,6 +95,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
     });
   }
 
+  /**
+   * Helper para abrir modals
+   * @param isNew
+   */
   openModal(isNew: boolean) {
     this.dialog.open(ModalComponent, {
       data: {
