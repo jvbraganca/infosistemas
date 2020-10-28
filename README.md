@@ -26,12 +26,15 @@ Projeto
 Também foi separado em dois `package.json` para que o front e back sejam 
 totalmente independentes. Para rodar o sistema execute:
 
-```
+```zsh
 $ git clone https://github.com/jvbraganca/infosistemas.git
+
 $ cd infosistemas
+
 # Instala dependencias do front-end
 $ cd web
 $ npm install
+
 # Instala dependencias do back-end
 $ cd ../api
 $ npm install
@@ -46,14 +49,14 @@ uma vez que estes são indenpendentes.
 
 Execute os seguintes comandos para iniciar o sistema:
 
-```
+```sh
 # No primeiro terminal será rodado o back-end
 $ npm run start
 ```
 
 A API estará funcionando em `http://localhost:3000/api/v1/`.
 
-```
+```sh
 # No segundo terminal será rodado o front-end
 $ cd ./web
 $ ng serve
@@ -70,6 +73,6 @@ supertest@5.0.0. A descrição de todos os testes podem ser visualizadas ao rod�
 
 Para executar os testes em seu terminal na pasta da **api** execute:
 
-````
+````sh
 $ npm run test
 ````
