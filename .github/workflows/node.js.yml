@@ -22,10 +22,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Test back-end
+      id: back
+      run: cd api && npm install && ./node_modules/.bin/mocha --timeout 15000
     - name: Build front-end
       id: front
       run: cd web && npm install && npm run build
-    - name: Test back-end
-      id: back
-      run: cd api && npm install && npm test
+    
       
