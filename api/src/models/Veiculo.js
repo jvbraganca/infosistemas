@@ -15,6 +15,7 @@ const VeiculoSchema = new mongoose.Schema(
       required: true,
       unique: true,
       max: 17,
+      uppercase: true
     },
     renavam: {
       type: Number,

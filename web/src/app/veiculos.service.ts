@@ -25,6 +25,7 @@ export class VeiculosService {
    * @param data
    */
   registerVehicles(data: object) {
+    console.log(data);
     return this.http.post(`${this.apiUrl}/`, data)
   }
 

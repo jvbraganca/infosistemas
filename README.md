@@ -46,7 +46,7 @@ Execute os seguintes comandos para iniciar o sistema:
 $ npm run start
 ```
 
-O sistema roda em `localhost:3000`.
+A API estará funcionando em `http://localhost:3000/api/v1/`.
 
 ```
 # No segundo terminal será rodado o front-end

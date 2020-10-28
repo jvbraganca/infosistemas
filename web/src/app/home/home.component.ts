@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   // Os dados de todos os veículos são colocados em vehicles
   vehicles: Object;
   // Estado da animação da ilustração
-  state: string = "hide";
+  state: string;
   modalInfo: Object = {};
 
   /**
@@ -47,6 +47,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
+    this.state = "hide";
     this.state = "show";
   }
 
