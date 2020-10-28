@@ -1,0 +1,89 @@
+<div *ngIf="data.delete">
+  <h1 mat-dialog-title>Realmente deseja excluir o veículo {{ data.vehicle.placa }}?</h1>
+  <mat-divider></mat-divider>
+  <div style="margin-top: 20px">
+    <button style="float: left" mat-button (click)="closeModal()">Não</button>
+    <button style="float: right" mat-raised-button color="warn" (click)="delete(data.vehicle._id)">Sim</button>
+  </div>
+</div>
+
+<div *ngIf="data.new">
+  <h1 mat-dialog-title>Cadastrar veículo</h1>
+  <mat-divider></mat-divider>
+  <form #frm="ngForm" (ngSubmit)="registerVehicle(frm)" >
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <mat-form-field appearance="fill">
+        <mat-label>Modelo</mat-label>
+        <input matInput type="text" id="modelo" name="modelo" [(ngModel)]="vehicle.modelo" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Marca</mat-label>
+        <input matInput type="text" id="marca" name="marca" [(ngModel)]="vehicle.marca" required>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <mat-form-field appearance="fill">
+        <mat-label>Ano</mat-label>
+        <input matInput type="number" id="ano" name="ano" [(ngModel)]="vehicle.ano" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Placa</mat-label>
+        <input matInput type="text" id="placa" name="placa" [(ngModel)]="vehicle.placa" required>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <mat-form-field appearance="fill">
+        <mat-label>Chassi</mat-label>
+        <input matInput type="text" id="chassi" name="chassi" [(ngModel)]="vehicle.chassi" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Renavam</mat-label>
+        <input matInput type="number" id="renavam" name="renavam" [(ngModel)]="vehicle.renavam" required>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <button mat-raised-button color="primary" [disabled]="frm.invalid">Cadastrar</button>
+    </div>
+  </form>
+</div>
+
+<div *ngIf="!data.new && !data.delete">
+  <h1 mat-dialog-title *ngIf="!data.new">Editar {{ data.vehicle.placa }}</h1>
+  <mat-divider></mat-divider>
+  <form #frm="ngForm" (ngSubmit)="edit(frm)">
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <mat-form-field appearance="fill">
+        <mat-label>Modelo</mat-label>
+        <input matInput type="text" id="modeloEdit" name="modelo" [(ngModel)]="data.vehicle.modelo" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Marca</mat-label>
+        <input matInput type="text" id="marcaEdit" name="marca" [(ngModel)]="data.vehicle.marca" required>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <mat-form-field appearance="fill">
+        <mat-label>Ano</mat-label>
+        <input matInput type="number" id="anoEdit" name="ano" [(ngModel)]="data.vehicle.ano" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Placa</mat-label>
+        <input matInput type="text" id="placaEdit" name="placa" [(ngModel)]="data.vehicle.placa" required>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <mat-form-field appearance="fill">
+        <mat-label>Chassi</mat-label>
+        <input matInput type="text" id="chassiEdit" name="chassi" [(ngModel)]="data.vehicle.chassi" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Renavam</mat-label>
+        <input matInput type="number" id="renavamEdit" name="renavam" [(ngModel)]="data.vehicle.renavam" required>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="35px" style="margin-top: 20px;">
+      <button mat-raised-button color="primary" [disabled]="frm.invalid">Editar</button>
+    </div>
+  </form>
+</div>
+

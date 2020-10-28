@@ -1,0 +1,63 @@
+<div class="wrapper">
+  <div class="container">
+    <mat-grid-list cols="12">
+      <div class="nav-bar">
+        <h1 class="company-name mat-display-1 title">
+          infosistemas
+          <button mat-button color="primary" class="float-right" (click)="registerVehicle()">Cadastre seu veículo</button>
+        </h1>
+      </div>
+    </mat-grid-list>
+    <div class="containerX">
+      <div fxLayout="column" fxLayoutAlign="start center" style="max-width: 750px; overflow-wrap: normal">
+        <div class="lead">Gerencie seus veículos aqui</div>
+        <div class="sublead mat-small">Cadastre os dados de sua frota e tenha controle dinâmico sobre ela</div>
+        <div>
+          <button class="call-button" mat-raised-button color="accent" (click)="registerVehicle()">ADICIONAR VEÍCULO</button>
+        </div>
+      </div>
+    </div>
+    <div class="vehicles-image" fxLayout="row" fxLayoutAlign="end center">
+      <img src="assets/svg/undraw_order_a_car_3tww.svg" alt="Vehicles" class="vehicles-image" [@animate]="state">
+    </div>
+  </div>
+  <div class="fab">
+    <button mat-mini-fab color="warn" aria-label="Scroll down">
+      <mat-icon>arrow_downward</mat-icon>
+    </button>
+  </div>
+</div>
+<div class="wrapper-fluid mat-typography">
+  <div class="container">
+    <h3 class="title mat-display-1">Lista de veículos</h3>
+    <div fxLayout="row wrap" fxLayoutAlign="space-around center" fxLayoutGap="15px">
+      <mat-card class="vehicle" *ngFor="let vehicle of vehicles" fxFlex="noshrink">
+        <mat-card-header>
+          <mat-card-title>
+            {{ vehicle.modelo }}
+          </mat-card-title>
+          <span class="text-right">
+            {{ vehicle.ano }}
+          </span>
+          <mat-card-subtitle> {{ vehicle.marca }} </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Placa: <span class="placa text-right"> {{ vehicle.placa }} </span></p>
+          <p>Chassi: <span class="placa text-right"> {{ vehicle.chassi }} </span></p>
+          <p>Renavam: <span class="placa text-right"> {{ vehicle.renavam }} </span></p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-icon-button color="warn" aria-label="Delete" (click)="delete(vehicle._id)">
+            <mat-icon>delete</mat-icon>
+          </button>
+          <button mat-button color="primary" class="float-right" (click)="edit(vehicle._id)">EDITAR</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
+<mat-grid-tile-footer>
+  <div class="footer" fxLayout="row" fxLayoutAlign="center center">
+    Feito por João Bragança
+  </div>
+</mat-grid-tile-footer>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a58652c9-4eea-4544-ad7a-798681cb865d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Processo_Seletivo_Infosistemas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/controller/veiculoController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/database/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/models/Veiculo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/test/veiculoTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/home/veiculo.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/veiculos.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/app/veiculos.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/svg/undraw_Vehicle_sale_a645.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/svg/undraw_order_a_car_3tww.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tslint.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1jStNRbvX0BCIG0tTzJZAGbGhtS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.11.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.11.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/assets/svg" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\web\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\web\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\web\src\assets\svg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\api" />
+      <recent name="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas" />
+      <recent name="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\server" />
+      <recent name="C:\Users\jvbra\WebstormProjects\Processo_Seletivo_Infosistemas\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="veiculoController.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/api/src/controller/veiculoController.js" working-dir="$PROJECT_DIR$/api/src/controller">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.veiculoController.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a58652c9-4eea-4544-ad7a-798681cb865d" name="Default Changelist" comment="" />
+      <created>1603809279981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603809279981</updated>
+      <workItem from="1603809281044" duration="5186000" />
+      <workItem from="1603814486075" duration="42290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="429" y="404" width="977" height="577" key="#ESLint" timestamp="1603829068555">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="429" y="404" width="977" height="577" key="#ESLint/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603829068555" />
+    <state x="707" y="149" key="#JavaScript" timestamp="1603814921281">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="707" y="149" key="#JavaScript/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603814921281" />
+    <state x="627" y="303" key="EditFileWatcherDialog" timestamp="1603831849326">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="627" y="303" key="EditFileWatcherDialog/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603831849326" />
+    <state x="740" y="280" width="758" height="490" key="FileChooserDialogImpl" timestamp="1603829032235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" width="758" height="490" key="FileChooserDialogImpl/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603829032235" />
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.bottom/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.0.center" timestamp="1603820085709">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.center/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085709" />
+    <state width="1899" height="344" key="GridCell.Tab.0.left" timestamp="1603820085709">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.left/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085709" />
+    <state width="1899" height="344" key="GridCell.Tab.0.right" timestamp="1603820085709">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.0.right/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085709" />
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.1.center" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.center/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.1.left" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.left/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.1.right" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.right/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.bottom/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.2.center" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.center/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.2.left" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.left/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.2.right" timestamp="1603820085710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.2.right/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085710" />
+    <state width="1899" height="344" key="GridCell.Tab.3.bottom" timestamp="1603820085711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.bottom/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085711" />
+    <state width="1899" height="344" key="GridCell.Tab.3.center" timestamp="1603820085711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.center/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085711" />
+    <state width="1899" height="344" key="GridCell.Tab.3.left" timestamp="1603820085711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.left/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085711" />
+    <state width="1899" height="344" key="GridCell.Tab.3.right" timestamp="1603820085711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.3.right/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603820085711" />
+    <state x="461" y="170" width="1078" height="710" key="SettingsEditor" timestamp="1603849723909">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" width="1078" height="710" key="SettingsEditor/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603849723909" />
+    <state x="668" y="242" width="583" height="566" key="find.popup" timestamp="1603822498694">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="668" y="242" width="583" height="566" key="find.popup/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603822498694" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603844510190">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.0.1600.870/0.0.1920.1050@0.0.1920.1050" timestamp="1603844510190" />
+  </component>
+</project>

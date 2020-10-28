@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+.wrapper {
+  min-height: 100vh;
+  max-width: 98vw;
+}
+
+.wrapper-fluid {
+  margin-top: 100px;
+  max-width: 98vw;
+  overflow-wrap: break-word;
+}
+
+.company-name {
+  padding-top: 50px;
+}
+
+.container {
+  min-height: 100%;
+  max-width: 60vw;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.title {
+  font-family: 'Rubik', serif;
+}
+
+.call-button {
+  margin-top: 20px;
+  font-family: 'Rubik', serif;
+  font-size: 24px;
+  margin-left: -18vw;
+  padding: 6px 6px;
+}
+
+.lead {
+  font-family: 'Rubik', serif;
+  font-size: 36px;
+  align-self: start;
+  margin-top: 20vh;
+}
+
+.sublead {
+  color: #BEBEBE;
+  align-self: start;
+  max-width: 700px;
+  font-size: 24px !important;
+  font-weight: lighter;
+  line-height: 25px;
+  padding-top: 25px;
+}
+
+.float-left {
+  float: left;
+  align-self: center;
+}
+
+.float-right {
+  float: right;
+  text-align: right;
+  align-self: end;
+}
+
+.text-right {
+  float: right;
+  text-align: right;
+}
+
+.placa {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.vehicles-image {
+  position: absolute;
+  margin-top: -20vh;
+  margin-right: -30vw;
+  width: 50vw;
+  align-self: end;
+}
+
+.vehicle {
+  margin-top: 30px;
+}
+
+.fab {
+  position: absolute;
+  bottom: 10px;
+  align-self: center;
+  margin-left: 50%;
+}
+
+
+.footer {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
