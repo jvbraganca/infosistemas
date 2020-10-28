@@ -27,7 +27,5 @@ jobs:
       run: cd web && npm install && npm run build
     - name: Test back-end
       id: back
-      run: cd ../api && npm install && npm test
-    - name: Outputs runtime
-      run: echo "Runtime for front-end was {{ steps.front.outputs.time }} and back-end was {{ steps.back.outputs.time }}"
+      run: cd api && npm install && npm test
       
