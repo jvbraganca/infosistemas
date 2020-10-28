@@ -1,7 +1,10 @@
 const app = require("../server");
-const chai = require("chai");
 const should = require("should");
 const request = require("supertest");
+const Veiculo = require("../src/models/Veiculo")
+
+
+const vehicleID = "5f98637413668f319048e951";
 
 describe("GET /api/v1/", () => {
   it("should GET a list of all vehicle and respond with JSON", (done) => {
@@ -46,7 +49,7 @@ describe("POST /api/v1/", () => {
 describe("GET /api/v1/:vehicleId", () => {
   it("should GET a vehicle base on its ID and respond with a JSON", (done) => {
     request(app)
-      .get("/api/v1/5f98533a19a925402c73d47d")
+      .get(`/api/v1/${vehicleID}`)
       .expect("Content-Type", /json/)
       .expect(200)
       .end((err, res) => {
@@ -60,8 +63,16 @@ describe("GET /api/v1/:vehicleId", () => {
 
 describe("PATCH /api/v1/:vehicleId", () => {
   it("should PATCH a vehicle base on its ID and responde with a JSON", (done) => {
+    let vehicle = new Veiculo({
+      placa: "HDK-3778",
+      chassi: "57ALU882DYGCA5561",
+      renavam: 11927280731,
+      modelo: "Polo Sedan",
+      marca: "Volkswagen",
+      ano: 2020,
+    });
     request(app)
-      .patch("/api/v1/5f98533a19a925402c73d47d")
+      .patch(`/api/v1/${vehicle._id}`)
       .send({
         ano: 2021,
       })
@@ -79,8 +90,16 @@ describe("PATCH /api/v1/:vehicleId", () => {
 
 describe("DELETE /api/v1/:vehicleId", () => {
   it("should DELETE a vehicle base on its ID and respond with a JSON", (done) => {
+    let vehicle = new Veiculo({
+      placa: "HDK-3778",
+      chassi: "57ALU882DYGCA5561",
+      renavam: 11927280731,
+      modelo: "Polo Sedan",
+      marca: "Volkswagen",
+      ano: 2020,
+    });
     request(app)
-      .del("/api/v1/5f98533a19a925402c73d47d")
+      .del(`/api/v1/${vehicle._id}`)
       .expect("Content-Type", /json/)
       .expect(200)
       .end((err, res) => {
