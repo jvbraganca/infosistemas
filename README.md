@@ -58,6 +58,7 @@ A API estará funcionando em `http://localhost:3000/api/v1/`.
 $ cd ./web
 $ ng serve
 ```
+O front estará funcionando em `http://localhost:4200`.
 
 Caso a porta do backend seja alterada, mude o valor da variável de ambiente 
 `API_URL` setada em `web/src/environments/environment.ts`
